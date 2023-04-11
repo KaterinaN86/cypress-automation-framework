@@ -1,0 +1,27 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "cypress automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaterinaN86/cypress-automation-framework.git"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing"
+  ],
+  "author": "Katerina Naumova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaterinaN86/cypress-automation-framework/issues"
+  },
+  "homepage": "https://github.com/KaterinaN86/cypress-automation-framework#readme",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
