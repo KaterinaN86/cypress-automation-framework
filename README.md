@@ -1,7 +1,8 @@
 # Project for learning Cypress automation framework
 
 ##################################################################################
-Follows Udemy tutorial [https://www.udemy.com/course/cypress-io-master-class](https://www.udemy.com/course/cypress-io-master-class)
+
+-   Follows Udemy tutorial [https://www.udemy.com/course/cypress-io-master-class](https://www.udemy.com/course/cypress-io-master-class)
 
 ## Tests (specs) can be found in directory **cypress/e2e**
 
