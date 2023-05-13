@@ -13,6 +13,10 @@ describe('Test contact us form', () => {
         });
         cy.get('[type="submit"]').click();
         //cy.get('#contact-us').click({force:true});
+        cy.get('#contact_reply > h1').should(
+            'have.text',
+            'Thank You for your Message!'
+        );
     });
     it.only('Should not be able to successfully submit filled out contact form', () => {
         cy.visit(
@@ -24,5 +28,12 @@ describe('Test contact us form', () => {
             force: true,
         });
         cy.get('[type="submit"]').click();
+        //Using Cypress contains and Chai assertion.
+        cy.get('body')
+            .contains('Error: all fields are required')
+            .should(
+                'have.text',
+                '\n\n\n Error: all fields are required\n Error: Invalid email address\n\n\n'
+            );
     });
 });
